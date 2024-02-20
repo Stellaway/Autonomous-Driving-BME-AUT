@@ -1,7 +1,9 @@
-# Autonomous-Driving-BME-AUT
+# Autonomous Driving BME AUT
 
 BME VIK AUT tanszék Önálló Laboratórium projekttárgy munkája.
 
-Hallgatók:
-Kovács Róbert
+***
+
+### Hallgatók:
+Kovács Róbert  
 Ursuleac Zsolt
