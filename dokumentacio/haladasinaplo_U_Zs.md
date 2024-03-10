@@ -15,3 +15,6 @@ Az első verzió implementálása könnyedén ment, annak minden hibájával egy
 A legfontosabb bug az, hogyha balra néz az autó és az kurzor pozíciója, az irány radián -pi és +pi között mozog, erre pedig eternal heróttal válaszol.
 Sikerült kijavítani, a problémát egy radiánértékeket 0 és 2pi közé (-pi és pi helyett) normalizáló fv okozta, ebből is tanultam.
 Egy kezdetleges pályát rajzoltam paintben. A háttér kirajzolására a képkockánkénti screen.blit nagyon lomha és nemhatékony volt. Megoldásnak találtam, hogy a képre load után convert_alpha()-t hívok. Eképpen, továbbra is screen.blit-et használva jelentősen megnőtt a képkockaszám.
+
+### 2024.03.04-2024.03.10
+A bemutatón egy korábban nem észrevett hiba jött elő az egérrel való kormányzással kapcsolatban. A hibát kijavítottam, egy véletlen pí hozzáadás okozta.
