@@ -18,3 +18,10 @@
 
 ### 2024.03.04-2024.03.10
 A bemutatón egy korábban nem észrevett hiba jött elő az egérrel való kormányzással kapcsolatban. A hibát kijavítottam, egy véletlen pí hozzáadás okozta.
+
+### 2024.03.11-2024.03.24
+Elkezdtem a két irányból jövő projekt (részemről a bicikli modell, Robi részéről az útkereső algoritmus) összeollózását.
+
+### 2024.03.24-2023.04.07
+A projekt összeállítását folytattam.
+Közben a bicikli modell demót igyekszem továbbá pixelfüggetlenné tenni. Ehhez az első lépés a rect image elvetése, és saját generálása.
