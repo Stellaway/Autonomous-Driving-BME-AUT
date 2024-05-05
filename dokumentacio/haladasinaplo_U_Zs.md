@@ -17,7 +17,7 @@
 - Egy kezdetleges pályát rajzoltam paintben. A háttér kirajzolására a képkockánkénti screen.blit nagyon lomha és nemhatékony volt. Megoldásnak találtam, hogy a képre load után convert_alpha()-t hívok. Eképpen, továbbra is screen.blit-et használva jelentősen megnőtt a képkockaszám.
 
 ### 2024.03.04-2024.03.10
-A bemutatón egy korábban nem észrevett hiba jött elő az egérrel való kormányzással kapcsolatban. A hibát kijavítottam, egy véletlen pí hozzáadás okozta.
+A bemutatón egy korábban észre nem vett hiba jött elő az egérrel való kormányzással kapcsolatban. A hibát kijavítottam, egy véletlen pí hozzáadás okozta.
 
 ### 2024.03.11-2024.03.24
 Elkezdtem a két irányból jövő projekt (részemről a bicikli modell, Robi részéről az útkereső algoritmus) összeollózását.
@@ -25,3 +25,13 @@ Elkezdtem a két irányból jövő projekt (részemről a bicikli modell, Robi r
 ### 2024.03.24-2023.04.07
 A projekt összeállítását folytattam.
 Közben a bicikli modell demót igyekszem továbbá pixelfüggetlenné tenni. Ehhez az első lépés a rect image elvetése, és saját generálása.
+
+### 2024.04.15-2023.04.21
+Lehetővé teszem, hogy az autónk a kijelölt útvonalon haladó demó járművet kövesse. Mivel a demó autó mindig újrakezdi, ez nem egy optimális megoldás.
+
+### 2024.04.22-2023.04.28
+Az autó mostmár magát az utat követi. Azonban csak a kezdő pozició -> cél pozíció irányba tud menni.
+
+### 2024.04.29-2023.05.05
+Az autó a kijelölt útvonalat követi, és a saját irányának megfelelő irányt követi.
+Irodalomkutatás path planningről.
