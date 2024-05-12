@@ -22,16 +22,21 @@ A bemutatón egy korábban észre nem vett hiba jött elő az egérrel való kor
 ### 2024.03.11-2024.03.24
 Elkezdtem a két irányból jövő projekt (részemről a bicikli modell, Robi részéről az útkereső algoritmus) összeollózását.
 
-### 2024.03.24-2023.04.07
+### 2024.03.24-2024.04.07
 A projekt összeállítását folytattam.
 Közben a bicikli modell demót igyekszem továbbá pixelfüggetlenné tenni. Ehhez az első lépés a rect image elvetése, és saját generálása.
 
-### 2024.04.15-2023.04.21
+### 2024.04.15-2024.04.21
 Lehetővé teszem, hogy az autónk a kijelölt útvonalon haladó demó járművet kövesse. Mivel a demó autó mindig újrakezdi, ez nem egy optimális megoldás.
 
-### 2024.04.22-2023.04.28
+### 2024.04.22-2024.04.28
 Az autó mostmár magát az utat követi. Azonban csak a kezdő pozició -> cél pozíció irányba tud menni.
 
-### 2024.04.29-2023.05.05
+### 2024.04.29-2024.05.05
 Az autó a kijelölt útvonalat követi, és a saját irányának megfelelő irányt követi.
 Irodalomkutatás path planningről.
+
+### 2024.05.06-2024.05.12
+Hasznos forrásanyagokat találtam:
+-https://www.gamedeveloper.com/programming/toward-more-realistic-pathfinding
+-https://github.com/Habrador/Self-driving-vehicle
